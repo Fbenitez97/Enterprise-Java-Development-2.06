@@ -35,7 +35,7 @@ public class Student {
         }
         this.grade = grade;
     }
-    
+
     public void increase(Map<String, Student> students) {
         for (String key : students.keySet()) {
             int currentGrade = students.get(key).getGrade();
